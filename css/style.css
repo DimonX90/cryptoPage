@@ -742,7 +742,7 @@ input:focus:-ms-input-placeholder {
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   position: absolute;
-  bottom: 100%;
+  bottom: 60%;
   left: 110%;
   font-size: 14px;
   color: #ffffff;
@@ -779,7 +779,7 @@ input:focus:-ms-input-placeholder {
   transition: all 0.5s ease 0s;
   position: absolute;
   line-height: 120%;
-  bottom: 100%;
+  bottom: 60%;
   left: 110%;
   font-size: 14px;
   color: #ffffff;
@@ -1089,8 +1089,24 @@ input:focus:-ms-input-placeholder {
     font-size: calc(18px + 6 * ((100vw - 320px) / 1120));
   }
 
+  .grid__item-i {
+    font-size: calc(12px + 2 * ((100vw - 320px) / 1120));
+  }
+
+  .grid__item-i {
+    width: calc(14px + 2 * ((100vw - 320px) / 1120));
+  }
+
+  .grid__item-i {
+    height: calc(14px + 2 * ((100vw - 320px) / 1120));
+  }
+
   .grid__item-subtext {
     padding: calc(5px + 10 * ((100vw - 320px) / 1120));
+  }
+
+  .grid__item-subtext {
+    font-size: calc(12px + 2 * ((100vw - 320px) / 1120));
   }
 
   .grid__item-value {
